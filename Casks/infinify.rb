@@ -1,6 +1,6 @@
 cask "infinify" do
-  version "0.2.6"
-  sha256 "1638237a405fb3b9b4a007b5cbc01dbdd61d1c1e7058d89855ee738893a0032e"
+  version "0.2.8"
+  sha256 "acf6e4b1888fc9995f98118ce449ad5ab52e7edb894d900e5b613fc05af77716"
 
   url "https://github.com/iamgadmarconi/infinify/releases/download/v#{version}/Infinify-#{version}.dmg"
   name "Infinify"
