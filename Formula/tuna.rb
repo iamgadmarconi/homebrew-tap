@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "0.2.3"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.2.3/tuna-0.2.3-darwin-arm64.tar.gz"
-      sha256 "5a5175c77c0a3c0c63c8449b41d222f0f6cdd6ab4e9015c6ffcadf97ef11a2fe"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.0/tuna-0.3.0-darwin-arm64.tar.gz"
+      sha256 "d4c3282e82e96bc3d041991ccb2d760da34cbf1076629983ccd84dccf28573fa"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.2.3/tuna-0.2.3-darwin-x86_64.tar.gz"
-      sha256 "7786022647ad7172ad981e145198b629193990fa09eea4db9590b2966e95e3ea"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.0/tuna-0.3.0-darwin-x86_64.tar.gz"
+      sha256 "1c6f4ced8e1e4dee32cac4f93d7cd529cca71445f66324cab27ee3ac4aefd73e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.2.3/tuna-0.2.3-linux-arm64.tar.gz"
-      sha256 "ca376640618ef745299c3d917b257f872d1316cecef3f9e8f96ac0364ae99911"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.0/tuna-0.3.0-linux-arm64.tar.gz"
+      sha256 "4aa9e2d4e5a3232d796fe47ce17832f8babf3587a7de5b517c96515e45ddf734"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.2.3/tuna-0.2.3-linux-x86_64.tar.gz"
-      sha256 "f1caeb76368ad73744011ed4e714fc8f8de017f301e2e7522464fc1375cbf5a8"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.0/tuna-0.3.0-linux-x86_64.tar.gz"
+      sha256 "ab948c8a7b11feae83fe2cc244be853323772d4cff9e325b70dcddebbe5cf1a6"
     end
   end
 
@@ -32,6 +32,6 @@ class Tuna < Formula
   end
 
   test do
-    assert_equal "0.2.3", shell_output("#{bin}/tuna --version").strip
+    assert_equal "0.3.0", shell_output("#{bin}/tuna --version").strip
   end
 end
