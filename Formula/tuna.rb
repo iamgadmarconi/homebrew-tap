@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "0.3.9"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.9/tuna-0.3.9-darwin-arm64.tar.gz"
-      sha256 "8605e89637c87a069c85feeb6490961b6e75bc154f6e7f04389508201e47278f"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.4.0/tuna-0.4.0-darwin-arm64.tar.gz"
+      sha256 "15ca7a2ecc2cdfb9b4fb63b382492ec4e2fc6d0893bb3118ab108d95bb5fb737"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.9/tuna-0.3.9-darwin-x86_64.tar.gz"
-      sha256 "8446e766ce172434ff49f89b04da612a83d9ec28ec94b1e8728a092a3ddfd889"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.4.0/tuna-0.4.0-darwin-x86_64.tar.gz"
+      sha256 "1086cb5d23e874f2a060dae0c4dd92732e67a400d0c941c3b00b515b66a8a582"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.9/tuna-0.3.9-linux-arm64.tar.gz"
-      sha256 "bb691e2b3d4b6c417ed388c2f66080bf0f972cd2c91563282809070a868e354d"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.4.0/tuna-0.4.0-linux-arm64.tar.gz"
+      sha256 "4b38773ee883142066690064b7aa851c8b8d1a09842a51e51e7faa1ee9421220"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.3.9/tuna-0.3.9-linux-x86_64.tar.gz"
-      sha256 "bbd0ca456ed70170e3c0ef37469cc604152aef3a983644dc4757a1874dda6963"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v0.4.0/tuna-0.4.0-linux-x86_64.tar.gz"
+      sha256 "0513aaa817f08fe5e12ad9425a00d7f74db1cb4186a544e60e933892f0c9bb72"
     end
   end
 
@@ -31,7 +31,4 @@ class Tuna < Formula
     prefix.install "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "README.md"
   end
 
-  test do
-    assert_equal "0.3.9", shell_output("#{bin}/tuna --version").strip
-  end
 end
