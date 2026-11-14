@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.5"
+  version "1.0.0-rc.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.5/tuna-1.0.0-rc.5-darwin-arm64.tar.gz"
-      sha256 "1f9cf84f3fadce639b8e3ec1725d2718d07ca775e68247e1419755412a9aa569"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.6/tuna-1.0.0-rc.6-darwin-arm64.tar.gz"
+      sha256 "158b593ec96abb38d37ca8bb51a16a2aabdf6c74b0d4a4c408659fa5fec36199"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.5/tuna-1.0.0-rc.5-darwin-x86_64.tar.gz"
-      sha256 "7fb482d1bbda2ada6bf26e263316bb558a2346b93ceec0c1dbf3e77277993e24"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.6/tuna-1.0.0-rc.6-darwin-x86_64.tar.gz"
+      sha256 "86cff5b2d78ee2f17fa100f3c2d1ce9ce74b7367853c80ffb5b85106124992a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.5/tuna-1.0.0-rc.5-linux-arm64.tar.gz"
-      sha256 "bdf3daae64b7f6b2ee449a77611da520e31ab2bb5f07c0f62a3581268835728f"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.6/tuna-1.0.0-rc.6-linux-arm64.tar.gz"
+      sha256 "0fb3fe65bd598c33dc2c7b6bfb1cf5141b6e3513d359e5c1ad2d2ba1acdacd20"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.5/tuna-1.0.0-rc.5-linux-x86_64.tar.gz"
-      sha256 "d097d6fc1a1b8d7b290cc6ca6e0b269aecfa162f5bbeac6ac2424781798be11d"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.6/tuna-1.0.0-rc.6-linux-x86_64.tar.gz"
+      sha256 "9cfb184a9515df3c8b6c9fcfb90c8f9dca5191406bdea4ecf28eb96e2fbc6e3f"
     end
   end
 
