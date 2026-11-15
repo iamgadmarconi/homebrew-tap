@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.9"
+  version "1.0.0-rc.11"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.9/tuna-1.0.0-rc.9-darwin-arm64.tar.gz"
-      sha256 "c99546c8c5ce558ceb094712159a1ee3671e530bdba5d0b88960d541233a024b"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.11/tuna-1.0.0-rc.11-darwin-arm64.tar.gz"
+      sha256 "efa23e591d9c95f75a540c3a813e44b80d00ffddd7b841aa9a54f247a1e1d197"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.9/tuna-1.0.0-rc.9-darwin-x86_64.tar.gz"
-      sha256 "16e1e8b53327fb7bf32b98fe96e9798f3f20949091ed43e199785827d9b2a393"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.11/tuna-1.0.0-rc.11-darwin-x86_64.tar.gz"
+      sha256 "c6b568888aadcef1b7e11836c6eed077faf00567b0614b5e857b852ed23e593e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.9/tuna-1.0.0-rc.9-linux-arm64.tar.gz"
-      sha256 "566c0bb5b443c680447991a77e15c9cb03bf150e9d8569c28c54560350f299da"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.11/tuna-1.0.0-rc.11-linux-arm64.tar.gz"
+      sha256 "e3df69505df656ddafd32f3f2d4f9efc5fd57e9ecc1810970825cf3fc9568bdb"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.9/tuna-1.0.0-rc.9-linux-x86_64.tar.gz"
-      sha256 "08f2edcd22b766e51b12c117822671688847e73e48dd486dfdddb3664621d707"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.11/tuna-1.0.0-rc.11-linux-x86_64.tar.gz"
+      sha256 "ad1747e2c638a3ec80132cd7891095fdd63793a6a663e269324b9bc10279a8b7"
     end
   end
 
