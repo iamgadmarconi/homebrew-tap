@@ -2,6 +2,19 @@
 
 Homebrew casks and formulae.
 
+## Fish
+
+```sh
+brew install --cask iamgadmarconi/tap/fish-app
+```
+
+A native macOS app for tuna coding agents. Requires macOS 26 or later. Fish bundles and starts
+its own tuna daemon. Install the optional `tuna` command from Fish's Settings.
+
+- Update with `brew upgrade --cask fish-app`.
+- Remove with `brew uninstall --cask fish-app`. Your conversations and settings in `~/.tuna` stay.
+- Download the DMG from this repository's [releases](https://github.com/iamgadmarconi/homebrew-tap/releases).
+
 ## Infinify
 
 ```sh
