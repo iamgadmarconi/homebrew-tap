@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.16"
+  version "1.0.0-rc.17"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.16/tuna-1.0.0-rc.16-darwin-arm64.tar.gz"
-      sha256 "095cd76066cbc05264dbf0418870967a814ce1806738a717fbf0d4e213281903"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.17/tuna-1.0.0-rc.17-darwin-arm64.tar.gz"
+      sha256 "7f7c0152d1fd9a249d2c8242a8aa619dd443fe0c73eed0c19f7eff0a4f13bc51"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.16/tuna-1.0.0-rc.16-darwin-x86_64.tar.gz"
-      sha256 "cb6bd4b7023d5dd01a8a5979aa1d0e170c8121122e53a13a2a4690cd0b02a064"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.17/tuna-1.0.0-rc.17-darwin-x86_64.tar.gz"
+      sha256 "58cf30ce51a6ebf834ea8cebe1cbd409b59d45a804053158951688eaf999f1ec"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.16/tuna-1.0.0-rc.16-linux-arm64.tar.gz"
-      sha256 "09b7b0343f13c319ce1702ef063352c05ec179419b3fb23bbe19ec39dcc14a62"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.17/tuna-1.0.0-rc.17-linux-arm64.tar.gz"
+      sha256 "7020d6cdf687f409dfb70d7ab3a4e6bc200b6d58caf3734e6dab2174f624d202"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.16/tuna-1.0.0-rc.16-linux-x86_64.tar.gz"
-      sha256 "2dc4ecef548ea8b886989bea07de4de9a843d85b9f93f075e454b31616ffceb4"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.17/tuna-1.0.0-rc.17-linux-x86_64.tar.gz"
+      sha256 "8e78180445d938800b283da43554aeeaf9e4757931defcac1a8d8ae90b9ab6d6"
     end
   end
 
