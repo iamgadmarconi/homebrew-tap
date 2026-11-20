@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.21"
+  version "1.0.0-rc.24"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.21/tuna-1.0.0-rc.21-darwin-arm64.tar.gz"
-      sha256 "985069bb13d69d3800fd2ae83b128e5a7e3426f1b92b62eb104b7d4257d5d2b0"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.24/tuna-1.0.0-rc.24-darwin-arm64.tar.gz"
+      sha256 "f8157afda3a68f449dc1324bcc52bf7e6759c6a2eeb6a5e0f5bfb29d90ca25d4"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.21/tuna-1.0.0-rc.21-darwin-x86_64.tar.gz"
-      sha256 "d2dca1063528dfb7f6d64d3ae794eb928532b12fce2ff1ab2a8fe943a0707afd"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.24/tuna-1.0.0-rc.24-darwin-x86_64.tar.gz"
+      sha256 "e4c5f04009816161e2412942d0b203a88ac45eb74b6a9157033ac5b710257896"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.21/tuna-1.0.0-rc.21-linux-arm64.tar.gz"
-      sha256 "701088a6a7f3cdaa58a09e126d4e983efc035edd26ff0fa7f4e675bc901a9a1b"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.24/tuna-1.0.0-rc.24-linux-arm64.tar.gz"
+      sha256 "1bb37ef5b648a1ec352eaaac04160a6097cfd1182d06539538833b2b219d2dfb"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.21/tuna-1.0.0-rc.21-linux-x86_64.tar.gz"
-      sha256 "3ead0729fbb0682177ae5b634db7eb0f82870f218fe44c5b98edbf76b9e68f4e"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.24/tuna-1.0.0-rc.24-linux-x86_64.tar.gz"
+      sha256 "cad4f767dd99837d2b3cc451bebdd14b59c8025a02939beb20c49ce4b4c74b1e"
     end
   end
 
