@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.29"
+  version "1.0.0-rc.30"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.29/tuna-1.0.0-rc.29-darwin-arm64.tar.gz"
-      sha256 "40ef056fe824955c77b8dded26cb3d495d1ff92e8d59e000a1de4cd850468bb7"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.30/tuna-1.0.0-rc.30-darwin-arm64.tar.gz"
+      sha256 "8f3ef854fb79ca8751a6687a30bcc1aec77ace39791f3b1f7e2534eba733ff7c"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.29/tuna-1.0.0-rc.29-darwin-x86_64.tar.gz"
-      sha256 "4a357dbef75ace7692bbbb19aa27b217446e59dcbbe9986ad4f9e1aae8cf5be1"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.30/tuna-1.0.0-rc.30-darwin-x86_64.tar.gz"
+      sha256 "c0ff173549f2efb619bcc42919659383d3fa8632351fff71dc2a23910f70bc9f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.29/tuna-1.0.0-rc.29-linux-arm64.tar.gz"
-      sha256 "a8432d01ca6710b27163497ffca5c1f5c3168dfeed3f37c776f3ad11a4823647"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.30/tuna-1.0.0-rc.30-linux-arm64.tar.gz"
+      sha256 "ec594c450f9395cf4b3a0311b6ee494242f9e34748af524c3253e5e940d38efa"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.29/tuna-1.0.0-rc.29-linux-x86_64.tar.gz"
-      sha256 "9aac9895e6ea4a2d2987a4d805a1c1aa1b280d3c5a0570dea2bd383f923f155b"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.30/tuna-1.0.0-rc.30-linux-x86_64.tar.gz"
+      sha256 "773acbc0e036a39da7529a5d6de4ff5b5e761ad29a30eb6782fbca47e0622c02"
     end
   end
 
