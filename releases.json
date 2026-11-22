@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "tag": "tuna-v1.0.0-rc.36",
+      "prerelease": true,
+      "assets": {
+        "tuna-1.0.0-rc.36-darwin-arm64.tar.gz": "39b74767ecda19dcee69043bcbe7912b6ce9d78ead509a36424914a3007bea78",
+        "tuna-1.0.0-rc.36-darwin-x86_64.tar.gz": "0227cf1e8c9d2729bf1bf30d39140678765578828979655ffbf2d5be6b23d334",
+        "tuna-1.0.0-rc.36-linux-arm64.tar.gz": "6e0b15ee72d07e5237520d76e2e6e7d27e6fc817c49c8499f2111bb80c99d5f1",
+        "tuna-1.0.0-rc.36-linux-x86_64.tar.gz": "f5aac31d99e4a368765ac0bb98845c324e0dddc3c960680d2ef93a4fca09cd3b",
+        "Fish-1.0.0-rc.36.dmg": "a146689deedf74b984f9dc53fd7ff919ca05d83e7cfa666bbeb5aaebdc218ea9"
+      }
+    },
+    {
       "tag": "tuna-v1.0.0-rc.35",
       "prerelease": true,
       "assets": {
