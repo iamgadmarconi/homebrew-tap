@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.0.0-rc.33"
+  version "1.0.0-rc.34"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.33/tuna-1.0.0-rc.33-darwin-arm64.tar.gz"
-      sha256 "423a50726db663c5ddab557878c9e8792a6c9dc0c7165857892d7f28cfd673a6"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.34/tuna-1.0.0-rc.34-darwin-arm64.tar.gz"
+      sha256 "34f43c0c2ddf91770e92299c8cddbb21468f3c96d674951b6dbc4bea1b35a6f0"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.33/tuna-1.0.0-rc.33-darwin-x86_64.tar.gz"
-      sha256 "6721fca1677c155de46decced240df69751be523f91f207a8e1a452b7dce0566"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.34/tuna-1.0.0-rc.34-darwin-x86_64.tar.gz"
+      sha256 "8369c6e2caf98d39121ea8ec80a6617024387e0f1480f71d460558bfb5cfc7cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.33/tuna-1.0.0-rc.33-linux-arm64.tar.gz"
-      sha256 "120dafe87d0dbde27634b9c0a28a6c61b3e21b13f751846eaf58b3e8cc72feeb"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.34/tuna-1.0.0-rc.34-linux-arm64.tar.gz"
+      sha256 "64a4f91b4d8876d0d47f57b1cb5e1e7a927fcb47e5295254a7e3506c8c3ba4b1"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.33/tuna-1.0.0-rc.33-linux-x86_64.tar.gz"
-      sha256 "e49d1a643d5aec6e07e9c314af36480d85eb169051bdc31039483fa025fbef7a"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.0.0-rc.34/tuna-1.0.0-rc.34-linux-x86_64.tar.gz"
+      sha256 "f85100fa3f6c9203d3ea36d26e3530ad65bacf061543b8818833c7f6c5aa4f8f"
     end
   end
 
