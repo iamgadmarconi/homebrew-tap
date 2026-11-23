@@ -1,6 +1,13 @@
 {
   "releases": [
     {
+      "tag": "fish-v1.0.4",
+      "prerelease": false,
+      "assets": {
+        "Fish-1.0.4.dmg": "238f48d39c3cc794206cc05df7db87103004de7aedce281f0f61cf03e336f3ba"
+      }
+    },
+    {
       "tag": "tuna-v1.0.3",
       "prerelease": false,
       "assets": {
