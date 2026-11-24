@@ -1,8 +1,8 @@
 cask "fish-app" do
-  version "1.0.4"
-  sha256 "238f48d39c3cc794206cc05df7db87103004de7aedce281f0f61cf03e336f3ba"
+  version "1.1.0"
+  sha256 "ef5dc6ab616a6ffbf1fce0a3048bc3d95fa5fe825f2a7bb510ae448e56f99012"
 
-  url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/fish-v#{version}/Fish-#{version}.dmg"
+  url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v#{version}/Fish-#{version}.dmg"
   name "Fish"
   desc "Native macOS client for tuna coding agents"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
