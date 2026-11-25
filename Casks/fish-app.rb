@@ -1,6 +1,6 @@
 cask "fish-app" do
-  version "1.1.1"
-  sha256 "4fb255944d63554c3784f2fcbaa8594a113e56871a76fbd98531619fff9b15d4"
+  version "1.1.2"
+  sha256 "e266084b188802a70e00bf39522599e7b24ebd7e6555877054d7c84289263f1d"
 
   url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v#{version}/Fish-#{version}.dmg"
   name "Fish"
