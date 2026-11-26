@@ -1,28 +1,28 @@
 class Tuna < Formula
   desc "Multi-agent coding harness for the terminal"
   homepage "https://github.com/iamgadmarconi/homebrew-tap"
-  version "1.1.4"
+  version "1.1.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.4/tuna-1.1.4-darwin-arm64.tar.gz"
-      sha256 "ce2d7c4d9a9c6ed0952c492757c1e50c3407f7b31071572434f13cd3350c2dbf"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.5/tuna-1.1.5-darwin-arm64.tar.gz"
+      sha256 "cb49fdd778fd09d3d968553cbac0e57389db62b9baab94fefa47e5855b68dffa"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.4/tuna-1.1.4-darwin-x86_64.tar.gz"
-      sha256 "d7876bee13ca64be65df68889006619cb75c122ecb871cfe55f9f2e0b6695c62"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.5/tuna-1.1.5-darwin-x86_64.tar.gz"
+      sha256 "6bdc937cbee4c0ea5346e422ea59f13de07c12a7b2940e2374231fa2ec9bcb41"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.4/tuna-1.1.4-linux-arm64.tar.gz"
-      sha256 "1599ee703ba5b57e4c6adabdca285a2b154648cdf329835c2b1783ce3969a1f8"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.5/tuna-1.1.5-linux-arm64.tar.gz"
+      sha256 "9f76d82234a4316f3e395463af93e3bbb77ceabed7887ae8e8a92b578280102a"
     end
     on_intel do
-      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.4/tuna-1.1.4-linux-x86_64.tar.gz"
-      sha256 "31f3ad30e5c8e48dfee9514bd2b60286ea567cb1f0660e90145de8b8784ab2ce"
+      url "https://github.com/iamgadmarconi/homebrew-tap/releases/download/tuna-v1.1.5/tuna-1.1.5-linux-x86_64.tar.gz"
+      sha256 "ac446856f8be16c8ec5201172e4a00fb74b74b82c74a9ef7a812d38917c59365"
     end
   end
 
